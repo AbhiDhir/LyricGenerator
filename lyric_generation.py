@@ -26,7 +26,7 @@ pattern = data_X[start]
 print('Seed : ')
 print("\"", ''.join([int_chars[value] for value in pattern]), "\"\n")
 
-generated_characters = 300
+generated_characters = 3000
 
 for i in range(generated_characters):
     x = np.reshape(pattern, (1,len(pattern),1))
